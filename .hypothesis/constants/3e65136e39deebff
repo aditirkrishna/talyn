@@ -1,0 +1,4 @@
+# file: e:\personal\talyn\talyn\distributions\bernoulli.py
+# hypothesis_version: 6.135.14
+
+[0.0, 1.0, 'p must be in [0,1]']

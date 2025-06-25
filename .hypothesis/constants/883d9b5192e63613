@@ -1,0 +1,4 @@
+# file: e:\personal\talyn\talyn\rng\__init__.py
+# hypothesis_version: 6.135.14
+
+['LCG', 'XORShift32', 'chi_square_statistic', 'rng_histogram']

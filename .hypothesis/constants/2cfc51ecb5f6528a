@@ -1,0 +1,4 @@
+# file: e:\personal\talyn\talyn\inference\kalman.py
+# hypothesis_version: 6.135.14
+
+[0.0, 1e-05, 0.01, 0.1, 0.2, 0.3, 0.9, 1.0, 'likelihood', 'trace']

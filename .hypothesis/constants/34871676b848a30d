@@ -1,0 +1,4 @@
+# file: e:\personal\talyn\talyn\monte_carlo\__init__.py
+# hypothesis_version: 6.135.14
+
+['antithetic_variates', 'control_variates', 'estimate_pi', 'importance_sampling', 'integrate', 'rejection_sampling', 'stratified_sampling']
