@@ -3,6 +3,7 @@ Probability measure and Kolmogorov axioms validators for finite sample spaces.
 """
 from typing import Any, Dict, Set
 from .sample_space import SampleSpace
+import itertools
 
 class ProbabilityMeasure:
     """
@@ -47,6 +48,23 @@ def validate_unit_total(measure: ProbabilityMeasure, tol: float = 1e-8) -> None:
     total = sum(measure.probabilities.values())
     if abs(total - 1.0) > tol:
         raise ValueError(f"Total probability is not 1 (got {total})")
+
+
+def validate_monotonicity(measure: ProbabilityMeasure, tol: float = 1e-8) -> None:
+    """
+    Check monotonicity: if A ⊆ B, then P(A) ≤ P(B).
+    """
+    omega = measure.space.omega
+    elements = list(omega)
+    # generate all subsets
+    subsets = [set(c) for r in range(len(elements) + 1) for c in itertools.combinations(elements, r)]
+    for A in subsets:
+        for B in subsets:
+            if A <= B:
+                pA = measure.prob(A)
+                pB = measure.prob(B)
+                if pA > pB + tol:
+                    raise ValueError(f"Monotonicity failed: P({A})={pA} > P({B})={pB}")
 
 
 def validate_additivity(
