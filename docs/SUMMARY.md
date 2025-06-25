@@ -35,5 +35,5 @@
   - **Tests**: Validation, regression, benchmarking
 
 ## Quick Links
-- [Project Repository](https://github.com/your-org/talyn)
+- [Project Repository](https://github.com/aditirkrishna/talyn)
 - [Rendered Notebooks (nbviewer)](https://nbviewer.org/)
