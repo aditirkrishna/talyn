@@ -1,5 +1,3 @@
-# ARCHITECTURE.md
-
 ## Talyn System Architecture — Quant/HFT Grade
 
 Talyn is engineered for deterministic, high-performance probabilistic simulation and inference. Its architecture is inspired by the demands of quantitative research, HFT, and large-scale scientific computing. Every component is modular, auditable, and built for both extensibility and low-latency execution.

@@ -1,5 +1,3 @@
-# THEORY.md
-
 ## Mathematical Foundations of Talyn
 
 ### Simulation-Based Inference

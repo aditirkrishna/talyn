@@ -1,5 +1,3 @@
-# INSTALL.md
-
 ## System Requirements
 
 - **Python:** 3.8 or higher (CPython recommended for performance and compatibility)

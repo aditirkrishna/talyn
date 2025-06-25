@@ -1,5 +1,3 @@
-# MODEL_SPEC.md
-
 ## Talyn Modeling Language Specification
 
 ### Syntax Reference

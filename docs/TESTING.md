@@ -1,5 +1,3 @@
-# TESTING.md
-
 ## Talyn Testing and Validation Strategy
 
 ### Test Categories

@@ -1,5 +1,3 @@
-# USAGE.md
-
 ## Talyn CLI Usage Manual
 
 ### Available Commands

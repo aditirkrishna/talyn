@@ -1,5 +1,3 @@
-# CITATION.md
-
 ## How to Cite Talyn
 
 If you use Talyn in academic research, industry reports, or quantitative finance applications, please cite the project as described below. Proper citation helps support ongoing development and ensures reproducibility and credit.

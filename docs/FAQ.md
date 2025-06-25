@@ -1,5 +1,3 @@
-# FAQ.md
-
 ## Frequently Asked Questions — Talyn
 
 ### Why does Talyn use simulation (execution-based) rather than symbolic/static graph definitions?

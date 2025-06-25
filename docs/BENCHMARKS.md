@@ -1,5 +1,3 @@
-# BENCHMARKS.md
-
 ## Talyn Performance Benchmarks: Methodology & Results
 
 This document details the benchmarking methodology, metrics, and results for Talyn’s core probabilistic inference and simulation engines. All experiments are designed for maximal reproducibility and relevance to real-world quantitative research and HFT use cases.

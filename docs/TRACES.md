@@ -1,5 +1,3 @@
-# TRACES.md
-
 ## Talyn Execution Trace Format and Structure
 
 ### JSON Trace Format Schema

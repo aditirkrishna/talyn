@@ -1,5 +1,3 @@
-# INFERENCE.md
-
 ## Inference Theory and Implementation in Talyn
 
 This document provides a rigorous overview of inference algorithms, graph transformations, and conditioning logic as implemented in Talyn. All methods are designed for mathematical transparency, auditability, and extensibility, with special attention to quant/HFT applications.
